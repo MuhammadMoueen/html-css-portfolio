@@ -31,12 +31,10 @@ body{
     background-color: black;
 } */
 
-#box{
-  background-color: blue;
+#two{
+  text-transform: capitalize;
+  text-align: center;
 }
-.heading{
-  color: red;
-}
-button{
-  color: green;
+body{
+  font-family: Times New Roman;
 }
