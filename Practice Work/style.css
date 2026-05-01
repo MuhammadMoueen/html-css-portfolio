@@ -1,0 +1,32 @@
+h1{
+    color: coral;
+    text-align: center;
+    
+}
+h2{
+ color: #ffff00;
+ text-align: center;
+ font-size: 18 px;
+}
+h3{
+ color: #ff00ff ;
+ text-align: center;
+}
+h4{
+ color: rgb(0, rgb(80, 164, 80), 0);
+ text-align: center;
+}
+h5{
+  color: rgb(255,0,0);
+  text-align: center;
+}
+h6{
+  color: white;
+  text-align: center;
+}
+p{
+  color: rgb(51, 51, 116);
+}
+body{
+    background-color: black;
+}
