@@ -80,6 +80,7 @@ body{
 #skills{
   color: #ff00ff;
   text-decoration: underline;
+  text-align: centers;
 }
 
 .contact{
@@ -88,4 +89,8 @@ body{
   text-align: center;
   padding: 10px;
   border: black;
+}
+
+#body{
+  background-color: black;
 }
