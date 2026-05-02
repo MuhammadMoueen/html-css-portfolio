@@ -112,10 +112,11 @@ h1{
 }
 
 #div{
-  border-style: dashed;
+  /* border-style: dashed;
   border-width: 2px;
   border-color: rgb(131, 14, 14);
-  background-color: #ff00ff;
+  background-color: #ff00ff; */
+  border: 20px dashed rgb(131, 14, 14);
   height: 100px;
   width: 100px;
   margin: 0 auto;
