@@ -57,14 +57,35 @@ body{
   color: #0000ff;
 }
 
-.profile{
-  font-family: 'Times New Roman', Times, serif, sans-serif;
-  line-height: 20px;
+.profile {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
   text-align: center;
   width: 400px;
+  margin: auto;
 }
 .about{
   font-family: 'Times New Roman', Times, serif, sans-serif;
   line-height: 20px;
   text-align: center;
+}
+
+.skills{
+  font-family: 'Times New Roman',  serif, sans-serif;
+  line-height: 20px;
+  text-align: center;
+  color: aqua;
+}
+
+#skills{
+  color: #ff00ff;
+  text-decoration: underline;
+}
+
+.contact{
+  font-family: 'Times New Roman', serif, sans-serif;
+  line-height: 20px;
+  text-align: center;
+  padding: 10px;
+  border: black;
 }
