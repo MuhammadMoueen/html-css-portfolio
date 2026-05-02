@@ -133,3 +133,12 @@ h1{
   background-color: #00ff00;
   border-radius: 50%;
 }
+
+nav{
+  background-color: #0f1111;
+
+}
+#logo{
+  color: orange;
+  font-size: 25px;
+}
