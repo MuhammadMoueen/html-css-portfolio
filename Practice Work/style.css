@@ -110,3 +110,15 @@ h1{
   text-align: center;
   margin: 0 auto;
 }
+
+#div{
+  border-style: dashed;
+  border-width: 2px;
+  border-color: rgb(131, 14, 14);
+  background-color: #ff00ff;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
