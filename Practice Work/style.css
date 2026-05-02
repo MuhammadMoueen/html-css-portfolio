@@ -135,10 +135,22 @@ h1{
 }
 
 nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: #0f1111;
+  height: 60px; 
+  align-items: center;
+  text-decoration-line: none;
 
 }
 #logo{
   color: orange;
   font-size: 25px;
+}
+.button{
+  color: yellow;
+  font-size: 10px;
+  padding: 5px;
+  
 }
