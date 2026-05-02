@@ -56,3 +56,15 @@ body{
   font-family: 'Times New Roman', Times, serif, sans-serif;
   color: #0000ff;
 }
+
+.profile{
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  line-height: 20px;
+  text-align: center;
+  width: 400px;
+}
+.about{
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  line-height: 20px;
+  text-align: center;
+}
