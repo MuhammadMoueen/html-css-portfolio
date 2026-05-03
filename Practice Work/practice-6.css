@@ -12,8 +12,12 @@
     width: 5em; */
 
 .box1,.box2,.box3,.box4{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width:  200px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
 }
 .box1{
     background-color: red;
