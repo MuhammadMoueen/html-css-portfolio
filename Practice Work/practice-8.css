@@ -1,0 +1,30 @@
+.container{
+height: 500px;
+width: 100%;
+border: 10px solid black;
+display: flex;
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    height: 200px;
+    width:  200px;
+    border: 2px solid black;
+    text-align: center;
+}
+.box1{
+    background-color: lightblue;
+}
+.box2{
+    background-color: lightgreen;
+}
+.box3{
+    background-color: lightpink;
+}
+.box4{
+    background-color: lightyellow;
+}
+.box5{
+    background-color: lightcoral;
+}
+.box6{
+    background-color: lightcyan;
+}
