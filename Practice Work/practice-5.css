@@ -14,7 +14,6 @@
 *{
   margin: 0;
   padding: 0;
-  color: white;
 }
 
 nav{
@@ -23,6 +22,7 @@ nav{
   height: 60px; 
   align-items: center;
   gap: 200px;
+  color: white;
 }
 #logo{
   color: orange;
@@ -37,17 +37,11 @@ a{
   text-decoration: none;
 }
 
-.container{
-  height: 100px;
-  width: 100px;
-  margin: 25px;
-  padding: 25px;
-}
-
 div1,div2,div3{
   height: 200px;
   width: 200px;
   border: 2px solid black;
+    display: inline-block;
 }
 #box1{
   color: rgb(255, 0, 0,0.5);
