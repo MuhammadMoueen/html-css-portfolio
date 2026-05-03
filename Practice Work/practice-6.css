@@ -6,7 +6,8 @@
 }
 .box{
     height: 100px;
-    width: 30%;
+    /* width: 30%; */
     background-color: red;
     font-size: 2em;
+    width: 5em;
 }
