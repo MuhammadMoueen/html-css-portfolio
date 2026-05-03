@@ -142,13 +142,11 @@ h1{
 
 nav{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   background-color: #0f1111;
   height: 60px; 
   align-items: center;
   text-decoration-line: none;
-  margin-right: auto;
+  margin-right: 200px;
 }
 #logo{
   color: orange;
