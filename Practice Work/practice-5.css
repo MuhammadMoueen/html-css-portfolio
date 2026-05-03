@@ -6,5 +6,6 @@ div{
   padding: 25px;
 }
 #box2{
-    display: none;
+    /* display: none; */
+    visibility: hidden;
 }
