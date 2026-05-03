@@ -5,3 +5,6 @@ div{
   margin: 25px;
   padding: 25px;
 }
+#box2{
+    display: none;
+}
