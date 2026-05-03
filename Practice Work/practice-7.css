@@ -5,8 +5,6 @@
 .box1,.box2,.box3,.box4{
     height: 200px;
     width:  200px;
-    margin: 10px;
-    padding: 10px;
     border: 2px solid black;
     text-align: center;
 }
@@ -23,4 +21,11 @@
     bottom: 0;
     border: none;
     width: 100%;
+}
+
+.box4{
+    height: 50px;
+    position: sticky;
+    width: 100%;
+    top: 50px;
 }
