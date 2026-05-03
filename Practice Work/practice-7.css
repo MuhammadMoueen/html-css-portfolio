@@ -12,8 +12,15 @@
 }
 .box1{
     height: 50px;
-    margin: 0;
-    padding: 0;
+    position: fixed;
+    top: 0;
+    border: none;
+    width: 100%;
+}
+.box2{
+    height: 50px;
+    position: fixed;
+    bottom: 0;
     border: none;
     width: 100%;
 }
