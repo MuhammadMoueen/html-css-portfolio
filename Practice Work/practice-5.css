@@ -55,3 +55,17 @@ a{
 .div3{
   background-color:rgb(0, 0, 255,0.5);
 }
+content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 610px;
+}
+footer{
+  background-color: #0f1111;
+  color: white;
+  height: 60px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
