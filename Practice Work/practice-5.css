@@ -37,18 +37,18 @@ a{
   text-decoration: none;
 }
 
-div1,div2,div3{
+.div1,.div2,.div3{
   height: 200px;
   width: 200px;
   border: 2px solid black;
-    display: inline-block;
+  display: inline-block;
 }
-div1{
+.div1{
   background-color: rgb(255, 0, 0,0.5);
 }
-div2{
+.div2{
   background-color:rgb(0, 255, 0,0.5);
 }
-div3{
+.div3{
   background-color:rgb(0, 0, 255,0.5);
 }
