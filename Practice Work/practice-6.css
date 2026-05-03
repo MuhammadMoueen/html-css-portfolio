@@ -2,9 +2,11 @@
     height: 500px;
     width: 500px;
     background-color: royalblue;
+    font-size: 5px;
 }
 .box{
     height: 100px;
     width: 30%;
     background-color: red;
+    font-size: 2em;
 }
