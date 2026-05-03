@@ -1,11 +1,60 @@
-div{
+/* div{
   height: 200px;
   width: 200px;
   display: inline-block;
   margin: 25px;
   padding: 25px;
+}*/
+
+
+
+/*===================Practice 5===================*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+nav{
+  display: flex;
+  background-color: #0f1111;
+  height: 60px; 
+  align-items: center;
+  gap: 200px;
+}
+#logo{
+  color: orange;
+  font-size: 25px;
+}
+button{
+  background-color: orange;
+  font-size: 10px;
+  padding: 5px;
+}
+a{
+  text-decoration: none;
+}
+
+.container{
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+  padding: 25px;
+}
+
+div1,div2,div3{
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+}
+#box1{
+  color: rgb(255, 0, 0,0.5);
 }
 #box2{
-    /* display: none; */
-    visibility: hidden;
+  background-color:rgb(0, 255, 0,0.5);
+}
+#box3{
+  background-color:rgb(0, 0, 255,0.5);
 }
