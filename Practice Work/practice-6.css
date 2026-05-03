@@ -1,4 +1,4 @@
-.container{
+/* .container{
     height: 500px;
     width: 500px;
     background-color: royalblue;
@@ -7,7 +7,25 @@
 .box{
     height: 100px;
     /* width: 30%; */
-    background-color: red;
+    /* background-color: red;
     font-size: 2em;
-    width: 5em;
+    width: 5em; */
+
+.box1,.box2,.box3,.box4{
+    height: 100px;
+    width: 100px;
+}
+.box1{
+    background-color: red;
+    position: static;
+}
+.box2{
+    background-color: green;
+    ;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: yellow;
 }
