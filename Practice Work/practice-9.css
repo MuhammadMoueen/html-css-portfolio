@@ -28,17 +28,19 @@ li{
 
 
 .div1{
- height: 200px;
- width: 200px;
+ height: 800px;
+ width: 800px;
  background-color: blue;
  color: white;
  display: flex;
  justify-content: center;
  align-items: center;
+ padding: 25px;
+ margin: 25px;
 }
 .div2{
- height: 100px;
- width: 100px;
+ height: 500px;
+ width: 500px;
  background-color: white;
  color: orange;
 }
