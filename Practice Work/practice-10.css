@@ -38,10 +38,11 @@ div{
     justify-content: center;
     align-items: center;
     background-color: green;
-    transition-property: all;
+/*  transition-property: all;
     transition-duration: 0.3s;
     transition-timing-function: ease-in;
-    transition-delay: 1s;
+    transition-delay: 1s; */
+    transition: all 0.3s ease-in 1s;
 }
 div:hover{
     background-color: pink;
