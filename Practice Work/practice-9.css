@@ -1,12 +1,28 @@
 */{
-    margin: 0;
-    padding: 0;
-    color: white;
+ margin: 0;
+ padding: 0;
 }
 nav{
  height: 50px;
  width: 100%;
+ background-color: blueviolet;
+}
+ul{
  display: flex;
- background-color: black;
+ justify-content: space-evenly;
+ padding-left: 0;
+ margin: 0;
+ align-items: center;
+}
+#logo{
+ font-size: 30px;
+ font-weight: bold;
+}
+a{
  text-decoration: none;
+ color: white;
+}
+li{
+ list-style: none;
+ /* margin-right: 270px; */
 }
