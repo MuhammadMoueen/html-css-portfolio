@@ -253,5 +253,32 @@ i.fa-solid {
     width: 23%;
     border: 2px solid black;
     background-color: #cccccc;
+    padding: 20px 0px 15px;
 
+}
+/*----------------------Images in boxes-----------------*/
+
+.box1-img{
+    background-image: url('assets/box1.jpg');
+    background-size: cover;
+    height: 350px;
+    
+}
+
+.box2-img{
+    background-image: url('assets/box2.png');
+    background-size: cover;
+    height: 350px;
+}
+
+.box3-img{
+    background-image: url('assets/box3.png');
+    background-size: cover;
+    height: 350px;
+}
+
+.box4-img{
+    background-image: url('assets/box4(1).png');
+    background-size: cover;
+    height: 350px;
 }
