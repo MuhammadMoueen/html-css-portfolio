@@ -198,3 +198,22 @@ i.fa-solid {
     width: auto;
     font-size: 14px;
 }
+
+/*====================Header Ends Here====================*/
+
+/*-------------------Hero_section------------------------*/
+
+.hero-section {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    animation: slider 12s infinite;
+}
+
+@keyframes slider {
+    0%   { background-image: url('assets/hero_section_1.jpg'); }
+    25%  { background-image: url('assets/hero_section_2.jpg'); }
+    50%  { background-image: url('assets/hero_section_3.jpg'); }
+    75%  { background-image: url('assets/hero_section_4.jpg'); }
+    100% { background-image: url('assets/hero_section_1.jpg'); }
+}
