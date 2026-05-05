@@ -7,17 +7,43 @@
     <title>Amazon-Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/jpg" href="assets/favicon.png.jpg">
+    <link rel="icon" type="image/png" href="assets/favicon.png.png">
 </head>
 <body>
     <header>
        <nav class="navbar">
+
+        /*--------Logo------------*/
         <div class="nav-logo border">
             <div class="logo">
-            </div>
+        </div>
         </div> 
-        </nav>     
 
+        /*---------Location------------*/
+        <div class="nav-address border">
+            <p class="add-first">Deliver to</p>
+            <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="add-second">Pakistan</p>
+            </div>
+        </div>
+        
+        /*-----------Search Bar------------*/
+        <div class="nav-search border">
+         <select class="nav-search">
+            <option value="all">All</option>
+            <option value="books">Books</option>
+            <option value="electronics">Electronics</option>
+            <option value="clothing">Clothing</option>
+            <option value="home">Home & Kitchen</option>
+         </select>
+            <input type="text" class="nav-input" placeholder="Search Amazon">
+            <div class="nav-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>       
+        </nav>     
+    </header>       
            
 </body>
 </html>

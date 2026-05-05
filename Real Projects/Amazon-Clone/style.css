@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Navbar Styles */
@@ -10,21 +11,24 @@
     height: 50px;
     background-color: black;
     color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
+/*------------1st Box-------------*/
 .nav-logo {
-    height: 40px;
+    height: 50px;
     width: 100px;
-    /* padding: 10px; */
 }
 
 .logo{
-    height: 40px;
+    height: 50px;
     background-image: url(assets/logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
-    width: auto;
+    width: 100%;
 }
 
 .border {
@@ -34,3 +38,24 @@
 .border:hover {
     border: 1px solid white;
 }
+/*------------2nd Box-------------*/
+.add-first{
+  font-size: 10px;
+  color: #cccccc;
+  margin-left: 20px;
+}
+
+.add-second{
+    font-size: 12px;
+    margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/*------------3rd Box-------------*/
+
+
+
+/*------------4th Box-------------*/
