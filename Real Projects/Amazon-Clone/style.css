@@ -133,3 +133,29 @@
 }
 
 /*------------6th Box-------------*/
+
+.nav-orders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40px;
+    width:  78px;
+}
+.orders-first {
+    font-size: 12px;
+    color: #cccccc;
+}
+.orders-second {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+}
+.account-first {
+    font-size: 12px;
+    color: #cccccc;
+}
+.account-second {
+    font-size: 14px;
+    font-weight: 600;
+}
