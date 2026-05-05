@@ -1,0 +1,28 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.nav-logo {
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+}
+
+.logo{
+    height: 40px;
+    background-image: url(assets/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: auto;
+}
