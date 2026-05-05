@@ -8,8 +8,8 @@
 
 /* Navbar Styles */
 .navbar {
-    height: 50px;
-    background-color: black;
+    height: 60px;
+    background-color: #0f1111;
     color: white;
     display: flex;
     align-items: center;
@@ -38,6 +38,7 @@
 .border:hover {
     border: 1px solid white;
 }
+
 /*------------2nd Box-------------*/
 .add-first{
   font-size: 10px;
@@ -55,7 +56,80 @@
 }
 
 /*------------3rd Box-------------*/
+.nav-search {
+    display: flex;
+    align-items: center;
+    background-color: #febd69;
+    height: 30px;
+    width: 600px;
+    border-radius: 4px;
+}
 
-
+.nav-select {
+   background-color: #ffffff;
+   font-size: 12px;
+   color: #0f1111;
+   height: 30px;
+   width: 50px;
+   text-align: center;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   border: none;
+}
+.nav-input{
+   height: 30px;
+   width: 500px;
+   font-size: 12px;
+   text-align: left;
+   padding: 7px 10px 10px 10px;
+}
+.nav-search-button {
+    background-color: #febd69;
+    height: 30px;
+    width: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
 
 /*------------4th Box-------------*/
+
+.nav-language {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 60px;
+    color: #d6d6d6;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.flg-pic{
+    height: 25px;
+    width: 30px;
+    background-image: url(assets/flag.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*------------5th Box-------------*/
+
+.nav-account {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+}
+.account-first {
+    font-size: 12px;
+    color: #cccccc;
+}
+.account-second {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*------------6th Box-------------*/
