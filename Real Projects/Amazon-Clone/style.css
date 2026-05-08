@@ -264,48 +264,19 @@ i.fa-solid {
 .box{
     height: 400px;
     width: 23%;
-    border: 2px solid black;
-    background-color: #cccccc;
-    padding: 20px 0px 15px;
-
+    background-color: white;
+    padding: 20px 15px 15px;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
 /*----------------------Images in boxes-----------------*/
 
-.box1-img{
-    background-image: url('assets/box1.jpg');
-    background-size: cover;
-    height: 350px;
-    
+.box img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
 }
-
-.box2-img{
-    background-image: url('assets/box2.png');
-    background-size: cover;
-    height: 350px;
+.box a{
+    text-decoration: none;
 }
-
-.box3-img{
-    background-image: url('assets/box3.png');
-    background-size: cover;
-    height: 350px;
-}
-
-.box4-img{
-    background-image: url('assets/box4(1).png');
-    background-size: cover;
-    height: 350px;
-}
-
-
-
-
-
-
-
-
-
-
-
-/**/
-
-
