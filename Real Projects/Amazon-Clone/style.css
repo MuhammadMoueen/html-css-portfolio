@@ -285,6 +285,9 @@ i.fa-solid {
 
 
 /*====================Footer====================*/
+footer{
+    margin-top: 30px;
+}
 
 .footer-panel-1{
     display: flex;
@@ -294,9 +297,85 @@ i.fa-solid {
     width: auto;
     background-color: #37475A;
 
+
 }
 .footer-panel-1 p{
     font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
+    margin-top: 15px;
+}
+
+.footer-panel-2{
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+ul p{
+    margin-top: 15px;
+    display: block;
+    color: #dddd;
+    font-size: 14px;
+}
+
+/* .footer-panel-3{
+    height: 100;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: white;
+} */
+
+.logo{
+    height: 50px;
+    background-image: url(assets/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+}
+
+/* .language{
+  height: 35px;
+  border: 1px solid black;
+  font-size: 12px;
+  display: inline;
+}
+.rupess{
+  height: 35px;
+  border: 1px solid black;
+   font-size: 12px;
+  display: inline;
+ 
+}
+.flg{
+  height: 35px;
+  border: 1px solid black;
+   font-size: 12px;
+    display: inline;
+} */
+
+.footer-panel-3{
+    height: 70px;
+    background-color: #232F3E;
+    border-top: 1px solid #3a4553;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-panel3-content{
+    width: 1000px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
