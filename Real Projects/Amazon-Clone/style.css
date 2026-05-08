@@ -284,6 +284,7 @@ i.fa-solid {
 }
 
 
+
 /*====================Footer====================*/
 footer{
     margin-top: 30px;
@@ -391,4 +392,94 @@ footer{
 .footer-panel-2 ul ul,
 .footer-panel-2 ul p {
     margin-bottom: 0;
+}
+
+.footer-panel-4{
+    background-color: #0f1111;
+    color: white;
+    height: 80;
+    padding-top: 25px;
+    font-size: 10px;
+    padding-bottom: 25px;
+}
+.pages{
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    margin: 5px;
+}
+.copyright{
+    text-align: center;
+    padding-top: 5px;
+}
+ .pages a{
+    text-decoration: none;
+    color: white;
+   margin-left: 10px;
+ }
+
+
+
+
+ .section-one{
+    height: 200px;
+    width: auto;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.signup-section{
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.signup-card{
+    display: inline-block;
+    max-width: 520px;
+    width: 100%;
+    padding: 36px 30px;
+    border: 1px solid #d5d9dc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    background-color: #fff;
+}
+
+.signup-card h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.signup-button{
+    display: inline-block;
+    background-color: #f0c14b;
+    color: #111;
+    border: 1px solid #a88734;
+    border-radius: 24px;
+    padding: 12px 36px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+.signup-button:hover{
+    background-color: #e2b33c;
+}
+
+.signup-note{
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+.signup-note a{
+    color: #007185;
+    text-decoration: none;
+}
+
+.signup-note a:hover{
+    text-decoration: underline;
 }
