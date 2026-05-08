@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Shape</title>
+    <link rel="stylesheet" href="practice-13.css">
+
+<style>
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Heart Shape */
+.heart{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    transform: rotate(-45deg);
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.heart::before,
+.heart::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.heart::before{
+    top: -50px;
+    left: 0;
+}
+
+.heart::after{
+    left: 50px;
+    top: 0;
+}
+ heart :hover{
+  height: 1000px;
+ }
+</style>
+</head>
+
+<body>
+
+<div class="heart"> 
+    <h3>Moon</h3>
+</div>
+
+</body>
+</html>
