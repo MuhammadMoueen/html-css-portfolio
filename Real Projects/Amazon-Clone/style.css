@@ -257,8 +257,10 @@ i.fa-solid {
 
 .shop-content{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: rgb(206, 223, 181);
+  gap: 20px;
 }
 
 .box{
@@ -279,4 +281,22 @@ i.fa-solid {
 }
 .box a{
     text-decoration: none;
+}
+
+
+/*====================Footer====================*/
+
+.footer-panel-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    width: auto;
+    background-color: #37475A;
+
+}
+.footer-panel-1 p{
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
