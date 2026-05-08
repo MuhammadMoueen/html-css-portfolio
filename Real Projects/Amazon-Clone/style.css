@@ -185,19 +185,32 @@ i.fa-solid {
     justify-content: flex-start;
     align-items: center;
     padding: 2px;
+    
 }
 
 .panel-ops {
     display: flex;
-    gap: 15px;                   /* spacing clean */
+    gap: 15px;  
+            
 }
 
 .panel-ops p{
-    display: inline;
+    display: flex;
+    justify-content: center;
     margin-left: 15px;
     width: auto;
     font-size: 14px;
+    padding: 5px;
 }
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
 
 /*====================Header Ends Here====================*/
 
@@ -282,3 +295,17 @@ i.fa-solid {
     background-size: cover;
     height: 350px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+
